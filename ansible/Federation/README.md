@@ -38,11 +38,7 @@ To delete all objects, change the 'state' to 'absent' in the variables file and 
 * 02_configure_lm_compute_manager.yml
 * Delete the first Local Manager using vSphere UI
 
-Also included is an example to configure Compute Manager on Standby Global Manager. 
-XX_configure_standby_gm_compute_manager
-
-And included is an example to deploy a Second and Third Compute Manager. 
-XX_deploy_second_third_standby_gm
+Also included is the ```XX_configure_standby_gm_compute_manager.yaml``` playbook to configure Compute Manager on the Standby Global Manager and the ```XX_deploy_second_third_standby_gm.yaml```  to deploy the Second and Third Standby Global Managers.
 
 Validated against:
 * NSX-T 3.1 GA
